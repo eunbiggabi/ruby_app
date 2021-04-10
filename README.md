@@ -2,12 +2,14 @@
 
 ### Table of contents
 
-- Links
-- Development, Purpose & Scope
-- Functionality and Features
-- User Interaction and Experience
-- Control Flow Development
-- Implementation Plan
+- [Links](###links)
+- [Development, Purpose & Scope](###development-purpose-scope)
+- [Functionality and Features](###functionality-and-features)
+- [User Interaction and Experience](###user-interaction-and-experience)
+- [Control Flow Development](###control-flow-development)
+- [Implementation Plan](###implementation-plan)
+- [Help document & Install the application](###help-document-&-install-the-application)
+- [Dependencies](###dependencies)
 
 ### Link
 
@@ -63,7 +65,9 @@ I creat a trello board after I approve my features. I focused on my features on 
 
 ![Trello_board](https://i.imgur.com/FC29kPZ.png)
 
-### Help document
+### Help document & Install the application
+
+- If you do not have Ruby on your computer, follow these instructions to [download and install](https://www.ruby-lang.org/en/documentation/installation/)
 
 - Clone the project files onto your computer from the source code here: https://github.com/eunbiggabi/ruby_app
 
@@ -92,3 +96,9 @@ gem "faker", "~> 2.17"
 gem "colorize", "~> 0.8.1"
 
 gem "csv", "~> 3.1"
+
+Note: You don't need to do this if you enter
+```
+$ ./src/run_app.sh
+```
+It will automatically install for you

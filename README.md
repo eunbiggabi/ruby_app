@@ -76,7 +76,7 @@ $ ./src/run_app.sh
 - You can check help statement before you start the game
 
 ```
-src/main.rb --help
+$ ruby src/main.rb --help
 ```
 
 ### Dependencies

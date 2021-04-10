@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Now you are installing necessary directories"
+echo "Now you are installing necessary directories..."
 touch easy_level.csv
 touch medium_level.csv
 touch hard_level.csv

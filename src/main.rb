@@ -73,22 +73,13 @@ check_level = false
 do_again = false
 difficulty = ["easy", "medium", "hard"]
 
-
-# begin 
-#     if require
-    
-# rescue NameError 
-#     puts "you need to install gems that shown above"
-# end
-# begin 
-#     Faker::Lorem.sentence
-#     StopWatch::Timer.new
-#     CSV
-#     colorize(:red)
-# rescue NameError 
-#     puts "you need to install gems that shown above"
-# end
-
+begin
+    Faker::Lorem.sentence
+    StopWatch::Timer.new
+    CSV
+rescue NameError
+    puts "you need to install gem show above"
+end
 
 if ARGV[0] == "--help"
     puts "Only way to quit this game is that entering 'quit' when you choose game-level option"
@@ -136,5 +127,9 @@ until quit
     quit = true
 end
 
-
+["easy_level.csv", "medium_level.csv", "hard_level.csv"].map do |f|
+    IO.sysopen(f)
+    rescue Errno::ENOENT
+    puts "We don't have this leader board yet: #{f}"
+    end
         

@@ -1,12 +1,17 @@
 ## Software Development Plan
 
 ### Table of contents
+
 - Links
 - Development, Purpose & Scope
 - Functionality and Features
 - User Interaction and Experience
 - Control Flow Development
 - Implementation Plan
+
+### Link
+
+[Github_link](https://github.com/eunbiggabi/ruby_app)
 
 ### Development, Purpose & Scope
 
@@ -24,11 +29,11 @@ Target Audience Usage: **Typing game** will be launched from the command line us
 
 - When the game starts, randomly set sentence will appear on the screen. When this is completed correctly you can get sucessful message. Also it will show how long does it take from start of display to end of tying, and it will generate to second form.
 
-2. Typing game will give users motivation by leader board
+2. Typing game will give users motivation by checking a leader board
 
-- The game will sort and take top 5 leader board base on user record
+- The game will sort and take top 5 leader board base on user record. The leader board will show the user whoever got a shorter time to compelete
 
-3. Users are able to choose difficulty of game levels
+3. Users are able to choose difficulty of game levels: easy, medium, and hard
 
 - It is divided into the three difficulties which is the beginner, intermediate, and advance. User can choose right level for them. Also, it will give user each different level of leader board so that user can try every level of difficulties.
 
@@ -50,8 +55,29 @@ Target Audience Usage: **Typing game** will be launched from the command line us
 
 ![flow_chart](https://i.imgur.com/IYBrwRz.png)
 
+### Implementation Plan
 
+I creat a trello board after I approve my features. I focused on my features on trello. Also I make a plan for document, presentation, and coding as big section. trello board link on the blew
 
+[Trello-board](https://trello.com/b/01Nzsprx/t1a3-terminal-application)
+
+![Trello_board](https://i.imgur.com/FC29kPZ.png)
+
+### Help document
+
+- Clone the project files onto your computer from the source code here: https://github.com/eunbiggabi/ruby_app
+
+- If you clone the typing-game, please enter the following code. It will install all the necessary document for you and start the code
+
+```
+$ ./src/run_app.sh
+```
+
+- You can check help statement before you start the game
+
+```
+src/main.rb --help
+```
 
 ### Dependencies
 

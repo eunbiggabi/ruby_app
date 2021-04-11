@@ -2,18 +2,21 @@
 
 ### Table of contents
 
-- [Links](###links)
-- [Development, Purpose & Scope](###development-purpose-scope)
-- [Functionality and Features](###functionality-and-features)
-- [User Interaction and Experience](###user-interaction-and-experience)
-- [Control Flow Development](###control-flow-development)
-- [Implementation Plan](###implementation-plan)
-- [Help document & Install the application](###help-document-&-install-the-application)
-- [Dependencies](###dependencies)
+- [Links](#Links)
+- [Development, Purpose & Scope](#Development-purpose-scope)
+- [Functionality and Features](#Functionality-and-Features)
+- [User Interaction and Experience](#User-interaction-and-experience)
+- [Control Flow Development](#Control-flow-development)
+- [Implementation Plan](#Implementation-Plan)
+- [Help documentation & Install the application](#Help-documentation-&-Install-the-application)
+
+#
 
 ### Link
 
-[Github_link](https://github.com/eunbiggabi/ruby_app)
+- [Github_link](https://github.com/eunbiggabi/ruby_app)
+
+#
 
 ### Development, Purpose & Scope
 
@@ -24,6 +27,8 @@ Problem: Within the older group, there was no correlation between the total time
 Target Audience: **Typing game** is an excellent game for everyone. Created for entertainment purpose, but it can be beneficial, especially in educational purpose such as younger and elderly people.
 
 Target Audience Usage: **Typing game** will be launched from the command line using the files listed in the installation section of this README.md document.
+
+#
 
 ### Functionality and Features
 
@@ -39,6 +44,8 @@ Target Audience Usage: **Typing game** will be launched from the command line us
 
 - It is divided into the three difficulties which is the beginner, intermediate, and advance. User can choose right level for them. Also, it will give user each different level of leader board so that user can try every level of difficulties.
 
+#
+
 ### User interaction and experience
 
 1. The game start with user_id screen being displayed.
@@ -53,9 +60,13 @@ Target Audience Usage: **Typing game** will be launched from the command line us
 
 6. The game will bring a user back to typing again if the user say 'yes' otherwise the game will show leader board and thank you for playing message will show up.
 
+#
+
 ### Control Flow Development
 
 ![flow_chart](https://i.imgur.com/IYBrwRz.png)
+
+#
 
 ### Implementation Plan
 
@@ -65,7 +76,9 @@ I creat a trello board after I approve my features. I focused on my features on 
 
 ![Trello_board](https://i.imgur.com/FC29kPZ.png)
 
-### Help document & Install the application
+#
+
+### Help documentation & Install the application
 
 - If you do not have Ruby on your computer, follow these instructions to [download and install](https://www.ruby-lang.org/en/documentation/installation/)
 
@@ -83,6 +96,8 @@ $ ./src/run_app.sh
 $ ruby src/main.rb --help
 ```
 
+#
+
 ### Dependencies
 
 Typing game utilise the following gems that are Mac dependent and will not function on other operating systems.
@@ -98,7 +113,9 @@ gem "colorize", "~> 0.8.1"
 gem "csv", "~> 3.1"
 
 Note: You don't need to do this if you enter
+
 ```
 $ ./src/run_app.sh
 ```
+
 It will automatically install for you

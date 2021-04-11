@@ -96,6 +96,11 @@ $ ./src/run_app.sh
 $ ruby src/main.rb --help
 ```
 
+- You can run typing-game again entering by 
+```
+$ ruby src/main.rb
+```
+
 #
 
 ### Dependencies
